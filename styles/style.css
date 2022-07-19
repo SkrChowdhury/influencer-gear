@@ -1,0 +1,84 @@
+/* ---------------------------------Google Fonts  ----------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+/* ---------------------------------Common Styles ----------------------------------- */
+
+.body {
+  font-family: "Poppins", sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #e02c6d;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 41px;
+  font-weight: bolder;
+}
+.button i{
+    margin-left: 5px;
+}
+
+/* --------------------------------Header Styles --------------------------------- */
+
+header {
+  margin: 80px 140px 0 140px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-titile {
+  font-size: 24px;
+  color: #3a3a3a;
+  font-weight: bolder;
+  align-self: center;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 35px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* -----------------------------Banner Styles ---------------------------- */
+
+.banner {
+  display: flex;
+  margin: 40px 140px;
+}
+.banner div {
+  padding: 40px 80px 40px 0;
+}
+
+.banner-title {
+  font-size: 52px;
+  font-weight: bolder;
+  color: #3a3a3a;
+  line-height: 70px;
+}
+
+.banner-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+
+.camera-back {
+  background-image: url("images/circle-design.svg");
+  background-size: 100%;
+  background-size: cover;
+}
